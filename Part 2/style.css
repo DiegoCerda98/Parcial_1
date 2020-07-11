@@ -1,42 +1,65 @@
 header {
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 
 h2 {
+  border: 1px solid black;
+  width: 33%;
+  text-align: center;
 
 }
 
 .nav {
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
   }
 
   li {
-
-
+    list-style: none;
+    border: 1px solid black;
+    width: 33%;
+    text-align: center;
+    margin: 2px;
   }
 
   .content{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 
 }
 
   .aside {
-
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
   }
 
   .slidebox{
-
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
    
   }
 
   .article{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
 
   }
 
 
 .poem{
+  border: 1px solid black;
 
 }
 
@@ -57,10 +80,11 @@ header{
 
 header,.content{
 
+
 }
 
 .nav {
-
+ 
 
   }
 
